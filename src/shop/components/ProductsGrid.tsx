@@ -5,7 +5,6 @@ import { FilterSidebar } from "./FilterSidebar";
 import { useSearchParams } from "react-router";
 import { useState } from "react";
 import { Product } from "@/interfaces/product.interface";
-import { Size } from '../../interfaces/product.interface';
 
 interface Props {
     products: Product[]
